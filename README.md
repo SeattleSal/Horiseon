@@ -7,6 +7,7 @@ The website is accessible using the following:
 * images have alt tags describing the image
 * images have title tags to describe the image
 TO DO - make screen readable?
+* decreased image file sizes for better web performance and faster upload
 
 ## Semantic HTML elements
 * The html uses the following semantic elements in the following order:
