@@ -1,6 +1,6 @@
 # Horiseon
 
-The Horiseon webpage is for a company that helps businesses optimize searchability.
+The Horiseon webpage is for a company that helps businesses optimize their searchability.
 
 ## Accessibility
 The website is accessible using the following:
@@ -36,3 +36,5 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
+## Screenshot
+![horiseon screenshot](./assets/images/horiseon_page_screenshot.png)
