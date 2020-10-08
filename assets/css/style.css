@@ -159,7 +159,7 @@ footer h2 {
     margin-left: 25px;
 }
 
-/* size header for mobile responsiveness */
+/* size header nav links for mobile responsiveness */
 @media (max-width: 1000px) {
     header nav ul {
         font-size: 10pt;

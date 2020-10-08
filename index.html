@@ -12,13 +12,13 @@
 </head>
 
 <!-- usability - added alt text for each img and title info for image referenced in css-->
-<!-- switched header class to header tag -->
 
 <body>
+    <!-- header containing heading and navigation links -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
     
-    <!-- replaced header div with header nav -->
+        <!-- navigation containing page navigation links-->
         <nav>
             <ul>
                 <li>
@@ -35,15 +35,13 @@
 
     </header>
 
-    <!-- used title tag to display text of hero class (background image)
-    // hero is a term for large images
-    -->
-    <div id="hero" aria-label="Digital Marketing Meeting Image"></div>
+    <!-- hero (large background image) uses aria-label to describe image -->
+    <div id="hero" role="img" aria-label="Digital Marketing Meeting Image showing four people around a work table"></div>
 
-    <!-- section area has main info -->
+    <!-- main information of webpage -->
     <main>
         <!-- added id to make above navigation links work -->
-        <!-- changed class names to all the same name content-box to reuse -->
+        <!-- each section of the main part has the same formatting using class 'content-box' -->
         <section id="search-engine-optimization" class="content-box">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
                 alt="Search Engine Optimization. Image of notebook." />
@@ -75,9 +73,9 @@
         </section>
     </main>
 
-    <!-- The aside lists the benefits on the right side.  -->
+    <!-- The aside lists the benefits on the right side of page.  -->
     <aside>
-        <!-- could make these div a section as well instead of having class -->
+        <!-- each section of the aside uses the same formatting from class 'benefit-box' -->
         <section class="benefit-box">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Lead Generation" />
@@ -104,7 +102,7 @@
         </section>
     </aside>
 
-    <!-- updated to use footer tag instead of footer class -->
+    <!-- footer part -->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
