@@ -5,6 +5,12 @@ The Horiseon webpage is for a company that helps businesses optimize their searc
 ## Link
 [Horiseon Website](https://seattlesal.github.io/Horiseon/)
 
+## Optmized search engine
+Searchability of the site was improved by the following:
+* update title in head
+* add meta description with keywords
+* added alt tags for images (also useful for accessibility)
+
 ## Accessibility Standards
 The website is accessible using the following:
 * images have alt tags describing the image
